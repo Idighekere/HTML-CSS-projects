@@ -1,0 +1,146 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 252, 252);
+    display: grid;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 11px;
+    width: 1fr;
+    height: 400px;
+
+}
+
+.content {
+    justify-content: center;
+    justify-self: center;
+    width: 1fr;
+}
+
+.img1 {
+    width: 1fr auto;
+}
+
+img {
+    width: 400px;
+    position: relative;
+    border-radius: 15px 0px 0 15px;
+    margin: 0;
+    height: 400px;
+
+}
+
+#tag {
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-size: 0.8em;
+
+}
+
+h1 {
+    font-family: ;
+    margin-top: 0px;
+    margin-bottom: 3px;
+
+}
+
+.des,
+h1,
+#tag,
+.pr1,
+button {
+    margin-left: 25px;
+}
+
+.des {
+    margin-top: 0px;
+    margin-right: 19px;
+    margin-bottom: 0px;
+    font-family: calibri;
+}
+
+.pr1 {
+    font-weight: bold;
+    color: rgb(69, 100, 80);
+    font: 42px arial;
+}
+
+.pr2 {
+    text-decoration: line-through;
+    text-align: center;
+    top: -12px;
+    position: relative;
+    margin-right: 0px;
+}
+
+#price {
+    margin-top: 0px;
+}
+
+button {
+    background-color: rgb(69, 100, 80);
+    color: white;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+    border: none;
+    padding: 10px 20px;
+    width: 310px;
+    margin: 0;
+    margin-left: 25px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.07em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:550px) {
+    .container {
+        width: 300px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 15px;
+    }
+
+    img {
+        width: 300px;
+        border-radius: 15px 15px 0px 0;
+
+
+    }
+
+    .content {
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .img1 {
+        width: 1fr;
+        margin-bottom: 1px;
+    }
+
+    button {
+        width: 250px;
+    }
+
+    #tag {
+        margin-top: 0px;
+    }
+}
